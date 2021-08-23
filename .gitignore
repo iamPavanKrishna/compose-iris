@@ -3,8 +3,3 @@
 .vscode
 .DS_Store
 __pycache__
-<<<<<<< HEAD
-.pytest_cache
-=======
-.pytest_cache
->>>>>>> 1e1287d20c079b058b8bb1eb7666ef23d44197a1
