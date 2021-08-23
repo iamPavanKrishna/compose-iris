@@ -57,5 +57,5 @@ def reload_model():
 
 # Main function to start the app when main.py is called
 if __name__ == "__main__":
-    # Uvicorn is used to run the server and listen for incoming API requests on 0.0.0.0:9999
-    uvicorn.run("main:app", host="127.0.0.1", port=9999, reload=True)
+    # Uvicorn is used to run the server and listen for incoming API requests on localhost:9999
+    uvicorn.run("main:app", host="localhost", port=9999, reload=True)
