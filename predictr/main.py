@@ -33,7 +33,7 @@ class QueryOut(BaseModel):
 
 # Route definitions
 @app.get("/ping")
-# Healthcheck route to ensure that the API is up and running
+# Healthcheck route to ensure that the API is up and running.
 def ping():
     return {"ping": "pong"}
 
