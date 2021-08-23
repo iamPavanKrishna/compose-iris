@@ -31,7 +31,7 @@ class TrainIn(BaseModel):
     hue: float
     od: float
     proline: float
-    wine_class: str
+    wine_class: int
 
 
 # Route definitions
