@@ -1,9 +1,6 @@
 from os import sep
 import pickle
 from sklearn.naive_bayes import GaussianNB
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 
 # define a Gaussain NB classifier
 clf = GaussianNB()
