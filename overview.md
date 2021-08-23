@@ -9,7 +9,7 @@
 
 
 ## Dataset
-IRIS Flower Predicting dataset (tentative)
+Wine Predicting dataset (tentative)
 
 ## Microservices
 
