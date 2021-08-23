@@ -18,11 +18,20 @@ app.add_event_handler("startup", init_model)
 
 # class which is expected in the payload while training
 class TrainIn(BaseModel):
-    sepal_length: float
-    sepal_width: float
-    petal_length: float
-    petal_width: float
-    flower_class: str
+    alcohol: float
+    malic_acid: float
+    ash: float
+    alcalinity_of_ash: float
+    magnesium: float
+    total_phenols: float
+    flavanoids: float
+    non_flavanoids_phenols: float
+    proanthocyanins: float
+    color_intensity: float
+    hue: float
+    od: float
+    proline: float
+    wine_class: str
 
 
 # Route definitions
@@ -34,7 +43,7 @@ def ping():
 
 @app.post("/train", status_code=200)
 # Route to further train the model based on user input in form of feedback loop
-# Payload: FeedbackIn containing the parameters and correct flower class
+# Payload: FeedbackIn containing the parameters and correct wine class
 # Response: Dict with detail confirming success (200)
 def train(data: List[TrainIn]):
     train_model(data)
