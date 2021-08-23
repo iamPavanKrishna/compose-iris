@@ -4,7 +4,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import pandas as pd
 
 # define a Gaussain NB classifier
 clf = GaussianNB()
