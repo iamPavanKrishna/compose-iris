@@ -1,6 +1,5 @@
 from os import sep
 import pickle
-from pandas.io.parsers import read_csv
 from sklearn.naive_bayes import GaussianNB
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
