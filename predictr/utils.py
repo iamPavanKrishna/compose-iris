@@ -16,8 +16,6 @@ def load_model():
     clf = pickle.load(open("models/wine_nb.pkl", "rb"))
     
     
-
-
 # function to predict the wine using the model
 def predict(query_data):
     x = list(query_data.dict().values())
